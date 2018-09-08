@@ -29,9 +29,32 @@ namespace Odontology.ViewModels
         #region Properties
         public int PatientId { get; set; }
 
-        public string Price { get; set; }
+        public int PatientId { get; set; }
 
-        public string Remarks { get; set; }
+
+        public string FirstName { get; set; }
+
+
+        public string LastName { get; set; }
+
+
+        public string Address { get; set; }
+
+
+        public string Phone { get; set; }
+
+
+        public DateTime PatientSince { get; set; }
+
+
+        public string TreatmentDescription { get; set; }
+
+
+        public string ImagePath { get; set; }
+
+
+        public bool HasAllergies { get; set; }
+
 
         public bool IsRunning
         {
@@ -175,7 +198,7 @@ namespace Odontology.ViewModels
 
             var Patient = new Patient
             {
-                PatientId = this.PatientId,
+                PatientId = ,
                 FirstName = this.FirstName,
                 LastName = this.Remarks,
                 Address = imageArray,
