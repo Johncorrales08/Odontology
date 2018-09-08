@@ -1,8 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:Sales.Infrastructure"
              x:Class="Odontology.App">
-	<Application.Resources>
-    
-	</Application.Resources>
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- Locator -->
+            <infra:InstanceLocator x:Key="Locator"/>
+
+            <!-- Parameters -->
+            <x:String x:Key="UrlAPI">https://practice1-2018-iiapi.azurewebsites.net/</x:String>
+            <x:String x:Key="UrlPrefix">/Api</x:String>
+            <x:String x:Key="UrlProductsController">/Patient</x:String>
+
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
