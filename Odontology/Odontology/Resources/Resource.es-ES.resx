@@ -120,4 +120,13 @@
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="TurOnInternet" xml:space="preserve">
+    <value>Por favor active el Internet</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>No hay conexión a Internet.</value>
+  </data>
 </root>

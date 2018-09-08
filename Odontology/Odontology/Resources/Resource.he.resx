@@ -120,4 +120,13 @@
   <data name="Error" xml:space="preserve">
     <value>טעות</value>
   </data>
+  <data name="Accept" xml:space="preserve">
+    <value>לקבל</value>
+  </data>
+  <data name="TurOnInternet" xml:space="preserve">
+    <value>הפעל את האינטרנט</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>אין קונקשן אינטרנט!</value>
+  </data>
 </root>

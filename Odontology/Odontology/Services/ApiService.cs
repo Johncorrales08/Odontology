@@ -24,7 +24,7 @@ namespace Odontology.Services
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "no hay internet",
+                    Message = "No hay internet",
                 };
             }
 
