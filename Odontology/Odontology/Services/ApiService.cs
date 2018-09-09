@@ -11,7 +11,7 @@ namespace Odontology.Services
     using System.Text;
     using System.Threading.Tasks;
     using Models;
-    
+    using Helpers;
     using Newtonsoft.Json;
     using Plugin.Connectivity;
 
@@ -24,7 +24,7 @@ namespace Odontology.Services
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "No hay internet",
+                    Message = Languages.TurnOnInternet,
                 };
             }
 
@@ -34,7 +34,7 @@ namespace Odontology.Services
                 return new Response
                 {
                     IsSuccess = false,
-                    Message = "no hay internet",
+                    Message = Languages.Error,
                 };
             }
 

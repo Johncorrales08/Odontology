@@ -5,14 +5,14 @@ using Xamarin.Forms.Xaml;
 [assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace Odontology
 {
+    using Views;
 	public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new MainPage();
-		}
+            MainPage = new NavigationPage(new PatienPage());
+        }
 
 		protected override void OnStart ()
 		{

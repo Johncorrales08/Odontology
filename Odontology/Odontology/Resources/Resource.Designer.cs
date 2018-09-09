@@ -22,7 +22,7 @@ namespace Odontology.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resource {
+    public class Resource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Odontology.Resources {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Odontology.Resources.Resource", typeof(Resource).Assembly);
@@ -51,7 +51,7 @@ namespace Odontology.Resources {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Odontology.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Accept.
         /// </summary>
-        internal static string Accept {
+        public static string Accept {
             get {
                 return ResourceManager.GetString("Accept", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Odontology.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Error.
         /// </summary>
-        internal static string Error {
+        public static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Odontology.Resources {
         /// <summary>
         ///   Looks up a localized string similar to No Internet Conection.
         /// </summary>
-        internal static string NoInternet {
+        public static string NoInternet {
             get {
                 return ResourceManager.GetString("NoInternet", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Odontology.Resources {
         /// <summary>
         ///   Looks up a localized string similar to Please activate the Internet.
         /// </summary>
-        internal static string TurOnInternet {
+        public static string TurOnInternet {
             get {
                 return ResourceManager.GetString("TurOnInternet", resourceCulture);
             }

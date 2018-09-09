@@ -4,10 +4,46 @@
              x:Class="Odontology.Views.PatienPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout
+            BindingContext="{Binding Patient}"
+            Padding="5">
+            <ListView
+                HasUnevenRows="True"
+                IsRefreshing="{Binding IsRefreshing}"
+                IsPullToRefreshEnabled="True"
+                ItemsSource="{Binding Patient}"
+                RefreshCommand="{Binding RefreshCommand}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image
+                                    Grid.Column="0"
+                                    Source="{Binding ImageFullPath}"
+                                    WidthRequest="100">
+                                </Image>
+                                <Label
+                                    FontAttributes="Bold"
+                                    Grid.Column="1"
+                                    Text="{Binding FirstName}"
+                                    VerticalOptions="Center">
+                                </Label>
+                                <Label
+                                    Grid.Column="2"
+                                    HorizontalOptions="End"
+                                    Text="{Binding LastName}"
+                                    VerticalOptions="Center">
+                                </Label>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
