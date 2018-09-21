@@ -156,4 +156,7 @@
       <Name>Odontology</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\NoImagen.png" />
+  </ItemGroup>
 </Project>

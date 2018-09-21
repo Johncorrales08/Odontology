@@ -42,7 +42,7 @@ namespace Odontology.Models
             {
                 if (string.IsNullOrEmpty(this.ImagePath))
                 {
-                    return "noimage";
+                    return "NoImagen";
                 }
 
                 return $"https://pratice1-2018-iiapi.azurewebsites.net/{this.ImagePath.Substring(1)}";
