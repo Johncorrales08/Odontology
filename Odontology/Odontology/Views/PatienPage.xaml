@@ -4,7 +4,9 @@
              x:Class="Odontology.Views.PatienPage"
              BindingContext="{Binding Main, Source={StaticResource Locator}}"
     Title="Patients">
-    <ContentPage.Content>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="ic_action_add_circle" Command="{BindingAddPatientCommand}"/>
+        <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Patient}"
             Padding="5">

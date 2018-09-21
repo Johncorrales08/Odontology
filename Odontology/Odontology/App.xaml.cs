@@ -11,7 +11,7 @@ namespace Odontology
 		public App ()
 		{
 			InitializeComponent();
-            MainPage = new NavigationPage(new PatienPage());
+            MainPage = new NavigationPage(new AddPatientPage());
         }
 
 		protected override void OnStart ()
