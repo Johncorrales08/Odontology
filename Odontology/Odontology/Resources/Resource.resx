@@ -129,4 +129,7 @@
   <data name="NoInternet" xml:space="preserve">
     <value>No Internet Conection</value>
   </data>
+  <data name="Patients" xml:space="preserve">
+    <value>Patients</value>
+  </data>
 </root>
