@@ -16,12 +16,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Update="Views\PatienPage.xaml.cs">
+      <DependentUpon>PatienPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Resources\Resource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\AddPatientpage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\PatienPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>

@@ -6,7 +6,6 @@
     Title="Patients">
    <ContentPage.ToolbarItems>
         <ToolbarItem Icon="ic_action_add_circle" Command="{Binding AddPatientCommand}"/>
-
         <ContentPage.Content>
         <StackLayout
             BindingContext="{Binding Patient}"

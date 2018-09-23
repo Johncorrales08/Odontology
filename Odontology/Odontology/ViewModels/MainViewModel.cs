@@ -1,22 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace Odontology.ViewModels
 {
-   
     using System.Windows.Input;
-   
-    using Views;
     using Xamarin.Forms;
-    using ViewModels;
 
     public class MainViewModel
     {
         #region Properties
         public PatientViewModel Patient { get; set; }
 
-        
+        public AddPatientViewModel AddPatient { get; set; }
         #endregion
 
         #region Constructors
@@ -25,7 +19,18 @@ namespace Odontology.ViewModels
             this.Patient = new PatientViewModel();
         }
         #endregion
+    public ICommand AddPatientCommand
+        {
+            get
+            {
+                return new RelayCommand(GoToAddPatient);
+            }
+        }
 
-        
+        private async void GoToAddPatient()
+        {
+            this.AddPatient = new AddPatientViewModel();
+            await Application.Current.MainPage.Navigation.PushAsync(new PatientPage());
+        }
     }
 }

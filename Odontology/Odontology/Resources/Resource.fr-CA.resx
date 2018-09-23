@@ -129,4 +129,7 @@
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
   </data>
+  <data name="Patients" xml:space="preserve">
+    <value>Patients (%)</value>
+  </data>
 </root>

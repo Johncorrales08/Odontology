@@ -88,6 +88,15 @@ namespace Odontology.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Patients.
+        /// </summary>
+        public static string Patients {
+            get {
+                return ResourceManager.GetString("Patients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please activate the Internet.
         /// </summary>
         public static string TurOnInternet {

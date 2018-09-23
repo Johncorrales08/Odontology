@@ -94,6 +94,7 @@
     <AndroidResource Include="Resources\drawable\NoImagen.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <AndroidResource Include="Resources\drawable\ic_action_add_circle.png" />
   </ItemGroup>
   <ItemGroup>
@@ -103,10 +104,21 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_action_add_circle.png" />
   </ItemGroup>
   <ItemGroup>
+=======
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_add_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 93adfafd38cf58d4b27dead73ca99c41daa09a9a
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_add_circle.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_action_add_circle.png" />
   </ItemGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_add_circle.png" />
+  </ItemGroup>
+>>>>>>> 93adfafd38cf58d4b27dead73ca99c41daa09a9a
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

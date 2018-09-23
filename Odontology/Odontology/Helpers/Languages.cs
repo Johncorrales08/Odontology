@@ -30,7 +30,10 @@ namespace Odontology.Helpers
             get { return Resource.Error; }
         }
 
-
+        public static string Patients
+        {
+            get { return Resource.Patients; }
+        }
 
     }
 

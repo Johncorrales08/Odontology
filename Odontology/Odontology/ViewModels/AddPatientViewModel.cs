@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Odontology.ViewModels
 {
-    class AddPatientViewModel
+   public class AddPatientViewModel : BaseViewModel
     {
     }
 }
