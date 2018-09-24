@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Odontology.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PatienPage : ContentPage
+	public partial class AddPatientPage : ContentPage
 	{
-		public PatienPage ()
+		public AddPatientPage ()
 		{
 			InitializeComponent ();
 		}

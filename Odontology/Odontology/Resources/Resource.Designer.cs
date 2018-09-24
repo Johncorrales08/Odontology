@@ -23,7 +23,9 @@ namespace Odontology.Resources {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resource {
-        
+        internal static string lastnamePlaceholder;
+        internal static string lastname;
+        internal static string firstNamePlaceholder;
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
@@ -88,6 +90,15 @@ namespace Odontology.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Patients.
+        /// </summary>
+        public static string Patients {
+            get {
+                return ResourceManager.GetString("Patients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Please activate the Internet.
         /// </summary>
         public static string TurOnInternet {
@@ -95,5 +106,7 @@ namespace Odontology.Resources {
                 return ResourceManager.GetString("TurOnInternet", resourceCulture);
             }
         }
+
+        public static string AddPatient { get; internal set; }
     }
 }

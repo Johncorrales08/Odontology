@@ -132,4 +132,19 @@
   <data name="Patients" xml:space="preserve">
     <value>Patients</value>
   </data>
+  <data name="AddPatient" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="Firstname" xml:space="preserve">
+    <value>Firstname</value>
+  </data>
+  <data name="firstNamePlaceholder" xml:space="preserve">
+    <value>Enter firs Name</value>
+  </data>
+  <data name="lastname" xml:space="preserve">
+    <value>lastname</value>
+  </data>
+  <data name="lastnamePlaceholder" xml:space="preserve">
+    <value>Enter Last Name</value>
+  </data>
 </root>

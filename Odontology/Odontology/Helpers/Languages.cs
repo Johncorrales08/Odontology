@@ -34,8 +34,23 @@ namespace Odontology.Helpers
         {
             get { return Resource.Patients; }
         }
-
-
+        public static string AddPatient
+        {
+            get { return Resource.AddPatient; }
+        }
+        public static string firstNamePlaceholder
+        {
+            get { return Resource.firstNamePlaceholder; }
+        }
+        public static string lastnamelastnamePlaceholder
+        {
+            get { return Resource.lastnamePlaceholder; }
+        }
+        public static string lastname
+        {
+            get { return Resource.lastname; }
+        }
+    
     }
 
 

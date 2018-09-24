@@ -132,4 +132,19 @@
   <data name="Patients" xml:space="preserve">
     <value>מטופל</value>
   </data>
+  <data name="AddPatient" xml:space="preserve">
+    <value>מטופל</value>
+  </data>
+  <data name="Firstname" xml:space="preserve">
+    <value>שם פרטי</value>
+  </data>
+  <data name="firstNamePlaceholder" xml:space="preserve">
+    <value>הזן שם פרטי</value>
+  </data>
+  <data name="lastname" xml:space="preserve">
+    <value>שם משפחה</value>
+  </data>
+  <data name="lastnamePlaceholder" xml:space="preserve">
+    <value>הזן שם משפחה</value>
+  </data>
 </root>

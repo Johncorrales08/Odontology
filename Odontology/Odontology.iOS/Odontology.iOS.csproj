@@ -163,6 +163,10 @@
     <BundleResource Include="Resources\ic_action_add_circle.png" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Implementation\" />
+=======
+    <Folder Include="Implementations\" />
+>>>>>>> d7fc3110c646608e9f250d0b0cdd5268e42ef621
   </ItemGroup>
 </Project>

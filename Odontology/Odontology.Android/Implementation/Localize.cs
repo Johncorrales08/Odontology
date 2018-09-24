@@ -39,7 +39,7 @@ public class Localize : ILocalize
         }
         return ci;
     }
-    public void SetLocale(CultureInfoci)
+    public void SetLocale(CultureInfo ci)
 
     {
         Thread.CurrentThread.CurrentCulture = ci;
